@@ -58,7 +58,7 @@ ul li {
 
 #presentacion .pre-container {
     width: 100%;
-    height: 50vh;
+    height: auto;
     background: url("media/foto-index2.jpg") top center;
     background-size: cover;
     margin-bottom: 50px;
@@ -112,7 +112,7 @@ h3 {
     font-size: 25px;
     font-family: 'Quicksand',
         sans-serif;
-    color: darkred;
+
     font-weight: bold;
 
 }
@@ -147,6 +147,11 @@ h3 {
     font-size: 20px;
     font-family: 'Quicksand',
         sans-serif;
+
+}
+
+.conservadorVerde {
+    color: green;
 }
 
 .claseModerado {
@@ -157,6 +162,11 @@ h3 {
 
 }
 
+.moderadoAzul {
+    color: blue;
+
+}
+
 .claseAgresivo {
     margin-top: 50px;
     font-size: 20px;
@@ -164,6 +174,55 @@ h3 {
         sans-serif;
 
 }
+
+.agresivoRojo {
+    color: red;
+}
+
+/* estilo del acercate a nuestras oficinas */
+
+h4 {
+
+    max-width: 100%;
+    font-family: 'Quicksand',
+        sans-serif;
+    margin: 50px 15px 15px 15px;
+    font-size: 35px;
+    color: ghostwhite;
+    background-image: linear-gradient(45deg, midnightblue, blue);
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+/* estilos del carrusel */
+
+.estilosCarrusel {
+    margin-top: 20px;
+
+}
+
+.mundoCripto {
+    max-width: 100%;
+    font-family: 'Quicksand',
+        sans-serif;
+    margin: 50px 15px 15px 15px;
+    font-size: 35px;
+    color: ghostwhite;
+    background-image: linear-gradient(45deg, orange, gold);
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.parrafosCripto {
+    font-size: 15px;
+    font-family: 'Quicksand',
+        sans-serif;
+    color: darkblue;
+
+}
+
 
 /*ACA FINALIZA LOS ESTILOS DEL MAIN*/
 
@@ -290,7 +349,7 @@ h5 {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: auto;
 
 
 }
