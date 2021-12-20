@@ -1,0 +1,446 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo body Index */
+
+body {
+  margin: 2px 2px 2px 2px;
+}
+
+/* estilo logo index */
+.logo {
+  display: flex;
+  justify-content: start;
+  background-color: ghostwhite;
+  padding: 1% 1% 1% 1%;
+  max-width: 100%;
+  min-width: 0%;
+}
+
+/* ESTILOS DEL NAVEGADOR*/
+ul {
+  background-color: ghostwhite;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0%;
+}
+
+ul li {
+  font-family: "Quicksand", sans-serif;
+  list-style-type: none;
+  text-align: center;
+  background: ghostwhite;
+  color: blue;
+  width: 100%;
+}
+
+.navBootstrap {
+  color: darkblue;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Quicksand", sans-serif;
+}
+
+/* ACA COMIENZAN TODOS LOS ESTILOS DEL HEADER*/
+
+#presentacion .pre-container {
+  width: 100%;
+  height: auto;
+  background: url(../media/foto-index2.jpg) top center;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+#presentacion .pre-container {
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  padding-top: 80px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.botonFlotante {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Quicksand", sans-serif;
+  background-image: linear-gradient(45deg, midnightblue, blue);
+  border-radius: 10px;
+  background: ghostwhite;
+}
+
+h2 {
+  max-width: 100%;
+  font-family: "Quicksand", sans-serif;
+  margin: 15px 15px 15px 15px;
+  font-size: 35px;
+  color: ghostwhite;
+  background-image: linear-gradient(45deg, midnightblue, blue);
+  border-radius: 10px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: "Quicksand", sans-serif;
+
+  font-weight: bold;
+}
+
+/* ACA COMIENZAN LOS ESTILOS DEL MAIN*/
+
+.claseMain {
+  margin: 1px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: baseline;
+  align-items: center;
+  text-align: justify;
+  margin: 30px 50px 10px 10px;
+  font-family: "Quicksand", sans-serif;
+  height: auto;
+  max-width: 100%;
+}
+
+.claseConservador {
+  margin-top: 2px;
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.conservadorVerde {
+  color: green;
+}
+
+.claseModerado {
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.moderadoAzul {
+  color: blue;
+}
+
+.claseAgresivo {
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.agresivoRojo {
+  color: red;
+}
+
+/* estilo del acercate a nuestras oficinas */
+
+h4 {
+  max-width: 100%;
+  font-family: "Quicksand", sans-serif;
+  margin: 50px 15px 15px 15px;
+  font-size: 35px;
+  color: ghostwhite;
+  background-image: linear-gradient(45deg, midnightblue, blue);
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+/* estilos del carrusel */
+
+.estilosCarrusel {
+  margin-top: 20px;
+}
+
+.carousel-img {
+  width: auto;
+  height: 450px;
+  object-fit: cover;
+}
+
+.mundoCripto {
+  max-width: 100%;
+  font-family: "Quicksand", sans-serif;
+  margin: 50px 15px 15px 15px;
+  font-size: 35px;
+  color: ghostwhite;
+  background-image: linear-gradient(45deg, orange, gold);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.parrafosCripto {
+  font-size: 15px;
+  font-family: "Quicksand", sans-serif;
+  color: darkblue;
+}
+
+.datoCuriso {
+  background-color: violet;
+}
+
+/*ACA FINALIZA LOS ESTILOS DEL MAIN*/
+
+/* ACA COMIENZAN TODOS LOS ESTILOS DE SECCION NOSOTROS */
+
+.bodyNosotros {
+  background-image: url(../media/em9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0%;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+/*Apliancando Grid*/
+
+.grid-area {
+  display: grid;
+  gap: 100px;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "quienes"
+    "objetivo"
+    "clientes";
+  height: 100%;
+}
+
+.quienes {
+  background-image: linear-gradient(45deg, midnightblue, blue);
+  color: ghostwhite;
+  padding: 70px 50px;
+  font-family: "Quicksand", sans-serif;
+  font-style: italic;
+  grid-area: quienes;
+  box-shadow: 5px 5px 10px 0px rgba(46, 46, 46, 0.75);
+}
+
+.objetivo {
+  background-image: linear-gradient(45deg, ghostwhite, lightgrey);
+  padding: 70px 50px;
+  color: midnightblue;
+  font-family: "Quicksand", sans-serif;
+  font-style: italic;
+  grid-area: objetivo;
+  box-shadow: 5px 5px 10px 0px rgba(46, 46, 46, 0.75);
+}
+
+.clientes {
+  background-image: linear-gradient(45deg, midnightblue, blue);
+  color: ghostwhite;
+  padding: 70px 50px;
+  font-family: "Quicksand", sans-serif;
+  font-style: italic;
+  grid-area: clientes;
+  box-shadow: 5px 5px 10px 0px rgba(46, 46, 46, 0.75);
+}
+
+h5 {
+  font-size: 30px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+}
+
+/* ACA FINALIZAN LOS ESTILOS DEL NOSOTROS*/
+
+/* ACA COMIENZAN LOS ESTILOS DEL REGISTRARSE */
+
+.bodyRegistrarse {
+  background-image: url("../media/em10.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
+  & main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.registro {
+  width: 80%;
+  background-color: #eee;
+  display: flex;
+  padding: 20px 0px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+
+  & form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__checkbox {
+      display: flex;
+      padding: 10px 15px;
+
+      & input {
+        width: 10px;
+      }
+    }
+
+    & .registro__btn {
+
+      padding: 10px 0px;
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+
+      & input {
+        width: 150px;
+      }
+    }
+
+    & input {
+      margin: 5px;
+      width: 90%;
+    }
+  }
+}
+
+/*estilos a formularios*/
+
+.estiloFormulario {
+  text-align: center;
+  font-size: 30px;
+  color: midnightblue;
+  background-color: transparent;
+  font-family: "Quicksand", sans-serif;
+  border-color: midnightblue;
+  border-style: solid;
+}
+
+/* ACA FINALIZAN LOS ESTILOS DEL REGISTRARSE */
+
+/* ACA COMIENZAN LOS ESTILOS DEL CONTACTO */
+
+.bodyContacto {
+  background-image: url("../media/em11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0%;
+  margin: 0;
+  padding: 0;
+
+  & .contacto {
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 30px 40px;
+
+    & label {
+      padding: 10px;
+    }
+
+    &__btn {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}
+
+/* FIN DE LOS ESTILOS DE CONTACTO */
+
+/* ACA COMIENZAN LOS ESTILOS DE INICIAR SESION */
+
+.bodyIniciarSesion {
+  background-image: url("../media/puente-de-la-mujer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/*estilos bootstrap*/
+
+.inicioDeSesion {
+  font-family: "Quicksand", sans-serif;
+  color: darkblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  background: darkblue;
+  text-align: center;
+  align-content: center;
+  background-color: ghostwhite;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+form {
+  width: 70%;
+
+  .formulario {
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & input {
+      width: 80%;
+    }
+
+  }
+}
+
+.mainIniciarSesion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h5 {
+  font-size: 30px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+}
+
+/* ACA FINALIZAN LOS ESTILOS DE INICIAR SESION */
+
+/*Degradados*/
+
+.degradadoAzul {
+  background-image: linear-gradient(45deg, midnightblue, blue);
+}
+
+footer {
+  margin-top: 10%;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+
+  & .copyright {
+    & p {
+      color: #232323;
+    }
+  }
+
+}

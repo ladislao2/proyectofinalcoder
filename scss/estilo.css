@@ -1,0 +1,525 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo body Index */
+body {
+  margin: 2px 2px 2px 2px;
+}
+
+/* estilo logo index */
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  background-color: ghostwhite;
+  padding: 1% 1% 1% 1%;
+  max-width: 100%;
+  min-width: 0%;
+}
+
+/* ESTILOS DEL NAVEGADOR*/
+ul {
+  background-color: ghostwhite;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0%;
+}
+
+ul li {
+  font-family: "Quicksand", sans-serif;
+  list-style-type: none;
+  text-align: center;
+  background: ghostwhite;
+  color: blue;
+  width: 100%;
+}
+
+.navBootstrap {
+  color: darkblue;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Quicksand", sans-serif;
+}
+
+/* ACA COMIENZAN TODOS LOS ESTILOS DEL HEADER*/
+#presentacion .pre-container {
+  width: 100%;
+  height: auto;
+  background: url(../media/foto-index2.jpg) top center;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+#presentacion .pre-container {
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 80px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.botonFlotante {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Quicksand", sans-serif;
+  background-image: linear-gradient(45deg, midnightblue, blue);
+  border-radius: 10px;
+  background: ghostwhite;
+}
+
+h2 {
+  max-width: 100%;
+  font-family: "Quicksand", sans-serif;
+  margin: 15px 15px 15px 15px;
+  font-size: 35px;
+  color: ghostwhite;
+  background-image: linear-gradient(45deg, midnightblue, blue);
+  border-radius: 10px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+}
+
+/* ACA COMIENZAN LOS ESTILOS DEL MAIN*/
+.claseMain {
+  margin: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: justify;
+  margin: 30px 50px 10px 10px;
+  font-family: "Quicksand", sans-serif;
+  height: auto;
+  max-width: 100%;
+}
+
+.claseConservador {
+  margin-top: 2px;
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.conservadorVerde {
+  color: green;
+}
+
+.claseModerado {
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.moderadoAzul {
+  color: blue;
+}
+
+.claseAgresivo {
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.agresivoRojo {
+  color: red;
+}
+
+/* estilo del acercate a nuestras oficinas */
+h4 {
+  max-width: 100%;
+  font-family: "Quicksand", sans-serif;
+  margin: 50px 15px 15px 15px;
+  font-size: 35px;
+  color: ghostwhite;
+  background-image: linear-gradient(45deg, midnightblue, blue);
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+/* estilos del carrusel */
+.estilosCarrusel {
+  margin-top: 20px;
+}
+
+.carousel-img {
+  width: auto;
+  height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.mundoCripto {
+  max-width: 100%;
+  font-family: "Quicksand", sans-serif;
+  margin: 50px 15px 15px 15px;
+  font-size: 35px;
+  color: ghostwhite;
+  background-image: linear-gradient(45deg, orange, gold);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.parrafosCripto {
+  font-size: 15px;
+  font-family: "Quicksand", sans-serif;
+  color: darkblue;
+}
+
+.datoCuriso {
+  background-color: violet;
+}
+
+/*ACA FINALIZA LOS ESTILOS DEL MAIN*/
+/* ACA COMIENZAN TODOS LOS ESTILOS DE SECCION NOSOTROS */
+.bodyNosotros {
+  background-image: url(../media/em9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0%;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+/*Apliancando Grid*/
+.grid-area {
+  display: -ms-grid;
+  display: grid;
+  gap: 100px;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+      grid-template-areas: "quienes" "objetivo" "clientes";
+  height: 100%;
+}
+
+.quienes {
+  background-image: linear-gradient(45deg, midnightblue, blue);
+  color: ghostwhite;
+  padding: 70px 50px;
+  font-family: "Quicksand", sans-serif;
+  font-style: italic;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: quienes;
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(46, 46, 46, 0.75);
+          box-shadow: 5px 5px 10px 0px rgba(46, 46, 46, 0.75);
+}
+
+.objetivo {
+  background-image: linear-gradient(45deg, ghostwhite, lightgrey);
+  padding: 70px 50px;
+  color: midnightblue;
+  font-family: "Quicksand", sans-serif;
+  font-style: italic;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: objetivo;
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(46, 46, 46, 0.75);
+          box-shadow: 5px 5px 10px 0px rgba(46, 46, 46, 0.75);
+}
+
+.clientes {
+  background-image: linear-gradient(45deg, midnightblue, blue);
+  color: ghostwhite;
+  padding: 70px 50px;
+  font-family: "Quicksand", sans-serif;
+  font-style: italic;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: clientes;
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(46, 46, 46, 0.75);
+          box-shadow: 5px 5px 10px 0px rgba(46, 46, 46, 0.75);
+}
+
+h5 {
+  font-size: 30px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+}
+
+/* ACA FINALIZAN LOS ESTILOS DEL NOSOTROS*/
+/* ACA COMIENZAN LOS ESTILOS DEL REGISTRARSE */
+.bodyRegistrarse {
+  background-image: url("../media/em10.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.bodyRegistrarse main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.registro {
+  width: 80%;
+  background-color: #eee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+}
+
+.registro form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.registro form__checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 15px;
+}
+
+.registro form__checkbox input {
+  width: 10px;
+}
+
+.registro form .registro__btn {
+  padding: 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.registro form .registro__btn input {
+  width: 150px;
+}
+
+.registro form input {
+  margin: 5px;
+  width: 90%;
+}
+
+/*estilos a formularios*/
+.estiloFormulario {
+  text-align: center;
+  font-size: 30px;
+  color: midnightblue;
+  background-color: transparent;
+  font-family: "Quicksand", sans-serif;
+  border-color: midnightblue;
+  border-style: solid;
+}
+
+/* ACA FINALIZAN LOS ESTILOS DEL REGISTRARSE */
+/* ACA COMIENZAN LOS ESTILOS DEL CONTACTO */
+.bodyContacto {
+  background-image: url("../media/em11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0%;
+  margin: 0;
+  padding: 0;
+}
+
+.bodyContacto .contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+.bodyContacto .contacto label {
+  padding: 10px;
+}
+
+.bodyContacto .contacto__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+/* FIN DE LOS ESTILOS DE CONTACTO */
+/* ACA COMIENZAN LOS ESTILOS DE INICIAR SESION */
+.bodyIniciarSesion {
+  background-image: url("../media/puente-de-la-mujer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/*estilos bootstrap*/
+.inicioDeSesion {
+  font-family: "Quicksand", sans-serif;
+  color: darkblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  background: darkblue;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: ghostwhite;
+  margin-top: 50px;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+form {
+  width: 70%;
+}
+
+form .formulario {
+  padding: 40px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form .formulario input {
+  width: 80%;
+}
+
+.mainIniciarSesion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h5 {
+  font-size: 30px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+}
+
+/* ACA FINALIZAN LOS ESTILOS DE INICIAR SESION */
+/*Degradados*/
+.degradadoAzul {
+  background-image: linear-gradient(45deg, midnightblue, blue);
+}
+
+footer {
+  margin-top: 10%;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+footer .copyright p {
+  color: #232323;
+}
+/*# sourceMappingURL=estilo.css.map */
